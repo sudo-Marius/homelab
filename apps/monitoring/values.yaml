@@ -9,4 +9,4 @@ alertmanager:
 
 hostRootFsMount:
   enabled: true
-  mountPropagation: None
+  mountPropagation: ""
