@@ -7,6 +7,6 @@ prometheus:
 alertmanager:
   enabled: false
 
-hostRootFsMount:
-  enabled: true
-  mountPropagation: ""
+prometheus-node-exporter:
+  hostRootFsMount:
+    enabled: false
