@@ -6,3 +6,7 @@ prometheus:
 
 alertmanager:
   enabled: false
+
+hostRootFsMount:
+  enabled: true
+  mountPropagation: None
